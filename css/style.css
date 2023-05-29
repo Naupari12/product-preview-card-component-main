@@ -57,6 +57,14 @@ body {
     margin-bottom: 1.75rem;   
 }
 
+.montserrat{
+    font-family: 'montserrat';
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 1.75rem;
+}    
+
 .details-container .description {
     font-family: 'montserrat';
     font-size: 14px;
@@ -65,30 +73,25 @@ body {
     margin-bottom: 1.75rem;
 }
 
-.montserrat{
-    font-family: 'montserrat';
-    letter-spacing: 3px;
-    font-size: 14px;
-    color: hsl(228, 12%, 48%);
-    margin-bottom: 1.75rem;
-}
-
 .details-container .name {
     font-family: 'abril fatface', serif;
 }
+
 .price-container{
     display: flex;
     gap: 1rem;
     align-items: center;
+    margin-top: 1.75rem;
     margin-bottom: 1.75rem ;
 }
 
 .price-container .current-price{
-    color: var(--Very-dark-green);
+    color: var(--Dark-cyan);
+    font-family: 'fraunces', sans-serif;
 }
 
 .price-container .old-price{
-    font-family: 'montserrat';
+    font-family: 'fraunces', sans-serif;
     color: var(--Dark-grayish-blue);
     text-decoration: line-through;
 }
@@ -109,10 +112,12 @@ body {
     cursor: pointer;
 }
  
-
+/*Aqui me demore 10 minutos tratando de recordar como se llamaba el 'hover' xd*/
 .details-container .btn:hover {
     background-color: var(--Very-dark-green);
 }
+
+/*Aunque me falta entender esto de '@media' ya le agarre el truquito*/
 
 @media only screen and (max-width:550px) {
 .card {
